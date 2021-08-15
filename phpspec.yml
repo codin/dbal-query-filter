@@ -7,3 +7,7 @@ suites:
         namespace: Codin\DBAL
         psr4_prefix: Codin\DBAL
         src_path: ./src
+extensions:
+  FriendsOfPhpSpec\PhpSpec\CodeCoverage\CodeCoverageExtension:
+    format:
+      - html
